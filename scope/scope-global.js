@@ -31,3 +31,12 @@ anotherFunction()
 console.log(hi);
 // console.log(hello);
 // console.log(arrow);
+
+// ! Asignar valores a funciones fantasma dentro de funciones es una mala práctica
+// ! Generar dobles asignaciones como al siguiente
+
+const anotherFunction = () => {
+    hi = hello = 'hola';
+}
+
+
