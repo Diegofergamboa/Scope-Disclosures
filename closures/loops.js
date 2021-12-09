@@ -14,3 +14,4 @@ const anotherFunction = () => {
 anotherFunction();
 
 // Esto es un closure, vamos a usarlo para asignaciones de métodos o para usar variables privadas.
+// Cambiandolo por let, es como se arregla el Bug que se generó
