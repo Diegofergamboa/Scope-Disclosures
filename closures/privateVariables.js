@@ -20,20 +20,19 @@ console.log(getName(newPerson));
 
 
 const Password = () => {
-    var password = 'passsword' // A esta variable nunca se podrá acceder si no es por medio de los métodos que establecimos.
+    var newPassword = 'passsword' // A esta variable nunca se podrá acceder si no es por medio de los métodos que establecimos.
         {
-            changePassword : (newPassword) => {
+            changePassword : (password) => {
                 password = newPassword ;
             }
-            showPassword : (password) => {
-                return password;
+            showPassword : () => {
+                return newPassword;
             }
         };
 };
 
 var newPassword = Password();
-console.log(`La contraseña anterior es ${showPassword(newPassword)}`);
-newPassword = changePassword('Nueva contraseña.');
-console.log(`La contraseña anterior es ${showPassword(newPassword)}`);
+newPassword = changePassword('Nueva contraseña');
+console.log(showPassword(newPassword));
 
 
