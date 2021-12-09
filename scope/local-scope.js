@@ -5,6 +5,8 @@ const helloworld = () => {
 
 helloworld();
 
+
+//! Ejemplo del ámbito léxico, es decir que una variable va a ser diferente según el tipo de ámbito en el que sea declarado
 var scope = 'i´m global';
 
 const functionScope = () => {
