@@ -12,8 +12,10 @@ function hello() {
 hello();
 
 const moneyBox = () => {
+    debugger
     var saveCoins = 0;
     const countCoins = (coins) => {
+        debugger
         saveCoins += coins;
         console.log(saveCoins);
     }
