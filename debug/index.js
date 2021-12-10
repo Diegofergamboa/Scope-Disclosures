@@ -5,6 +5,7 @@ function hello() {
     const c = 'hello world!'
     if (true) {
         let d = 'hello world !!!';
+        debugger
     }
 }
 
