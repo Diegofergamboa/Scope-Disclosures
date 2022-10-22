@@ -31,4 +31,5 @@ const fruits = () => {
     console.log(fruit2);
     console.log(fruit3);
 }
+
 fruits();
