@@ -18,7 +18,7 @@ const myMoneyBoxFernando = myMoneyBox();
 myMoneyBoxDiego(10);
 myMoneyBoxDiego(10);
 myMoneyBoxDiego(20);
-console.log('Another count.')
+console.log('Another count.');
 myMoneyBoxFernando(10);
 myMoneyBoxFernando(15);
 myMoneyBoxFernando(20);
