@@ -15,10 +15,8 @@ const myMoneyBoxDiego = myMoneyBox();
 //! Otra instancia de la función de save Money para Fernando.
 const myMoneyBoxFernando = myMoneyBox();
 
-myMoneyBoxDiego(10);
-myMoneyBoxDiego(10);
-myMoneyBoxDiego(20);
+myMoneyBoxDiego(2);
 console.log('Another count.');
-myMoneyBoxFernando(10);
-myMoneyBoxFernando(15);
-myMoneyBoxFernando(20);
+// myMoneyBoxFernando(10);
+// myMoneyBoxFernando(15);
+// myMoneyBoxFernando(20);
